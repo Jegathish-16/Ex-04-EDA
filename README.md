@@ -1,6 +1,6 @@
 # Ex-04-EDA
 
-## AIm:
+## AIM:
 To perform EDA on the given data set.
 
 ## EXPLANATION:
