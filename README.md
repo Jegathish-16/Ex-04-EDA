@@ -7,28 +7,28 @@ To perform EDA on the given data set.
 The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
 
 ## ALGORITHMS:
-## STEP 1
+###  STEP 1
 Import the required packages(pandas,numpy,seaborn).
 
-## STEP 2
+### STEP 2
 Read and Load the Dataset
 
-## STEP 3
+### STEP 3
 Remove the null values from the data and remove the outliers.
 
-## STEP 4
+### STEP 4
 Remove the non numerical data columns using drop() method.
 
-## STEP 5:
+### STEP 5:
 returns object containing counts of unique values using (value_counts()).
 
-## STEP 6:
+### STEP 6:
 Plot the counts in the form of Histogram or Bar Graph.
 
-## STEP 7:
+### STEP 7:
 find the pairwise correlation of all columns in the dataframe(.corr()).
 
-## STEP 8:
+### STEP 8:
 Save the final data set into the file.
 
 ## PROGRAME:
@@ -73,15 +73,17 @@ sns.heatmap(df.corr(),annot=True)
 ```
 
 ## OUTPUT:
-## READ THE DATA:
+### READ THE DATA:
 ![output](o1.png)
-## CHECKING THE MISSING VALUES IN THE DATASET :
+### CHECKING THE MISSING VALUES IN THE DATASET :
 ![output](o2.png)
+### Graphical Representation - Before removing Outliers:
 ![output](o3.png)
+### Graphical Representation - After removing Outliers:
 ![output](o4.png)
 ![output](o5.png)
 ![output](o6.png)
-## PLOTTING GRAPHS FOR VARIOUS DATASETS :
+### PLOTTING GRAPHS FOR VARIOUS DATASETS :
 ![output](o7.png)
 ![output](o8.png)
 ![output](o9.png)
@@ -97,9 +99,9 @@ sns.heatmap(df.corr(),annot=True)
 ![output](o19.png)
 ![output](o20.png)
 ![output](o21.png)
-## CORRELATION :
+### CORRELATION :
 ![output](o22.png)
-## HEAT MAP:
+### HEAT MAP:
 ![output](o23.png)
 
 ## RESULT:
